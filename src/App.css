@@ -68,3 +68,11 @@
   left: 70%;
   border-radius: 15px;
 }
+
+.avatar {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+
+}
