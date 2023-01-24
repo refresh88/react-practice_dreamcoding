@@ -9,7 +9,7 @@ export default function AppXY() {
       onPointerMove={(e) => {
         // setPosition({ x: e.clientX, y: e.clientY });
         // 수평으로만 이동이 가능하도록.
-        setPosition((prev) => ({ ...prev, y: e.clientY }));
+        setPosition((prev) => ({ ...prev, x: e.clientX }));
       }}
     >
       <div
